@@ -1,0 +1,6 @@
+framework module Pods_MAESCrypt_Tests {
+  umbrella header "Pods-MAESCrypt_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

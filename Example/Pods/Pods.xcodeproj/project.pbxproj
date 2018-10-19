@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0188696613537B85EAD4BF4FE6FB3A49 /* Pods-MAESCrypt_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F50BAC42691598FF9E464C36FA473D4A /* Pods-MAESCrypt_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3811DC20B2FD5FC9397975B7105BF2CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		563754096CA7D4DDA0198AA734DCB3F8 /* Pods-MAESCrypt_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AB38DAF5434264E8E97E4F42865E27 /* Pods-MAESCrypt_Tests-dummy.m */; };
+		75030ED6E011C0E5F299BA2BD2485902 /* MAESCrypt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C43DFF8C01A65CF83A9CA5A05D3335 /* MAESCrypt-dummy.m */; };
+		91570DAD574D4279B3BC1FE3EBCBC0C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		945FF0EDE805DEFD57B198B655ED85C4 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 277AFD1B299919BC8B4CCED4CE9DE1BF /* ReplaceMe.m */; };
+		ACE3D89FF3448488C73AABC51840B46F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B1CD0F69D3E26288A45919DC39EE72A3 /* MAESCrypt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 034A14012884463298B1CDE70E48A893 /* MAESCrypt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3243E4C220C2DC290FE0B8F765FD417 /* Pods-MAESCrypt_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF771F280255A968DD4B32D8DAD89BF6 /* Pods-MAESCrypt_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE624508D546BDDB2178843B324A1B37 /* Pods-MAESCrypt_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5362CAA80CB8BF231A0F307A7390EE42 /* Pods-MAESCrypt_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21695F3D627EB85A1B30CA928679BDD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0796C3B8EA7EFDCAD2095BB673742085;
+			remoteInfo = MAESCrypt;
+		};
+		FCE0CE1FD1D3276E154BF6FA2DB0A503 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7608119385B1DBCBA33C98656EE62F4E;
+			remoteInfo = "Pods-MAESCrypt_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		034A14012884463298B1CDE70E48A893 /* MAESCrypt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MAESCrypt-umbrella.h"; sourceTree = "<group>"; };
+		0FAB9948B4A97BB2BB1A08244D5F0537 /* MAESCrypt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MAESCrypt.framework; path = MAESCrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		132FE17109692D3FE0732D5FADF2AD60 /* MAESCrypt.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MAESCrypt.xcconfig; sourceTree = "<group>"; };
+		15DEBF3E481675601C46F2A787BA0476 /* Pods-MAESCrypt_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MAESCrypt_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		231C256AE5B291E336C561F7CB4DF716 /* Pods-MAESCrypt_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MAESCrypt_Tests-resources.sh"; sourceTree = "<group>"; };
+		277AFD1B299919BC8B4CCED4CE9DE1BF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MAESCrypt/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		29DB088A7282C66D4B3C22CCAD8ECE7F /* Pods-MAESCrypt_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MAESCrypt_Tests.modulemap"; sourceTree = "<group>"; };
+		2F96DA2CCE68104473A2A4F6177C7004 /* Pods-MAESCrypt_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MAESCrypt_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4D9D106F9E05F758F0EF878BE12DCAA0 /* Pods-MAESCrypt_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MAESCrypt_Example.modulemap"; sourceTree = "<group>"; };
+		4FE2624313E2C37917CD791A278D096C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5362CAA80CB8BF231A0F307A7390EE42 /* Pods-MAESCrypt_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MAESCrypt_Example-dummy.m"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6247875E87300411365C5D2980607111 /* Pods-MAESCrypt_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MAESCrypt_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		653508D9FC9A415B1B591657B2AC48C6 /* Pods-MAESCrypt_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MAESCrypt_Example-frameworks.sh"; sourceTree = "<group>"; };
+		74AB38DAF5434264E8E97E4F42865E27 /* Pods-MAESCrypt_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MAESCrypt_Tests-dummy.m"; sourceTree = "<group>"; };
+		7F829F25CE9D8590D5C0540B8BA4113B /* Pods-MAESCrypt_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MAESCrypt_Example-resources.sh"; sourceTree = "<group>"; };
+		80178B046DB0F25BDA36B98FB47022B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		85C568F7E77BDD2A703DE489E95DE817 /* MAESCrypt.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MAESCrypt.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8F35B72A5782C3153A2AFFA5858D5475 /* Pods-MAESCrypt_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MAESCrypt_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8FA384E53319BC274B4995F562AEDBBC /* MAESCrypt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MAESCrypt.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99515875D588273F6C65B0E348C7C194 /* Pods-MAESCrypt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MAESCrypt_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9DAC0E4AF1BA93DAC57D3D1736F515EF /* Pods-MAESCrypt_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MAESCrypt_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A03F03B844D94DF133E3D8A1D1E0D0AE /* Pods-MAESCrypt_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MAESCrypt_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AF771F280255A968DD4B32D8DAD89BF6 /* Pods-MAESCrypt_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MAESCrypt_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B00C607A428517A2DA954A5CF93B68AC /* MAESCrypt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MAESCrypt-prefix.pch"; sourceTree = "<group>"; };
+		B9C43DFF8C01A65CF83A9CA5A05D3335 /* MAESCrypt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MAESCrypt-dummy.m"; sourceTree = "<group>"; };
+		BF86FC33F7C98F89DFF500427D2BA3D5 /* Pods-MAESCrypt_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MAESCrypt_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C31FA3CC97AE5C778AE28F2616C05F6A /* Pods_MAESCrypt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MAESCrypt_Example.framework; path = "Pods-MAESCrypt_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67F2F147C58A3F2FA6F46C906D217FC /* Pods_MAESCrypt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MAESCrypt_Tests.framework; path = "Pods-MAESCrypt_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAC2D9BCBA70707958C84C899A158A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3760B3AE662E6EAFE5F68356F36D2CD /* Pods-MAESCrypt_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MAESCrypt_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EBDFD98234E73B10F232B836BBA37E02 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F50BAC42691598FF9E464C36FA473D4A /* Pods-MAESCrypt_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MAESCrypt_Example-umbrella.h"; sourceTree = "<group>"; };
+		FE3EA8085645FFDD20A27E4487A43DD7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF56E5E7661F9406F7213121E1417848 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91570DAD574D4279B3BC1FE3EBCBC0C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F252BAD08F4F3B5C285C6254D6695825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE3D89FF3448488C73AABC51840B46F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0758A72BBAA71012C1D24DFA4474F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3811DC20B2FD5FC9397975B7105BF2CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09E90DF8C0B8B4C08DF75DBF975F00AD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				671E4432A6EBD788FF5A6DC628A30170 /* MAESCrypt */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1DCA47F35E9642320E84C350CF35C9E7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE3EA8085645FFDD20A27E4487A43DD7 /* Info.plist */,
+				8FA384E53319BC274B4995F562AEDBBC /* MAESCrypt.modulemap */,
+				132FE17109692D3FE0732D5FADF2AD60 /* MAESCrypt.xcconfig */,
+				B9C43DFF8C01A65CF83A9CA5A05D3335 /* MAESCrypt-dummy.m */,
+				B00C607A428517A2DA954A5CF93B68AC /* MAESCrypt-prefix.pch */,
+				034A14012884463298B1CDE70E48A893 /* MAESCrypt-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MAESCrypt";
+			sourceTree = "<group>";
+		};
+		378E6105ED849F62D7BA9347E8FBEBFA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4FE2624313E2C37917CD791A278D096C /* LICENSE */,
+				85C568F7E77BDD2A703DE489E95DE817 /* MAESCrypt.podspec */,
+				80178B046DB0F25BDA36B98FB47022B9 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		671E4432A6EBD788FF5A6DC628A30170 /* MAESCrypt */ = {
+			isa = PBXGroup;
+			children = (
+				277AFD1B299919BC8B4CCED4CE9DE1BF /* ReplaceMe.m */,
+				378E6105ED849F62D7BA9347E8FBEBFA /* Pod */,
+				1DCA47F35E9642320E84C350CF35C9E7 /* Support Files */,
+			);
+			name = MAESCrypt;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				09E90DF8C0B8B4C08DF75DBF975F00AD /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F1D67CC577047E96AA4E5B5729FB3196 /* Products */,
+				BD105BFDAE417A0AF16662F268937F61 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD105BFDAE417A0AF16662F268937F61 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA5BDCC129CD593297FD08CCA4F60111 /* Pods-MAESCrypt_Example */,
+				E238D5196F7DA7A4541EE0C1EF8A669A /* Pods-MAESCrypt_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CA5BDCC129CD593297FD08CCA4F60111 /* Pods-MAESCrypt_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EBDFD98234E73B10F232B836BBA37E02 /* Info.plist */,
+				4D9D106F9E05F758F0EF878BE12DCAA0 /* Pods-MAESCrypt_Example.modulemap */,
+				E3760B3AE662E6EAFE5F68356F36D2CD /* Pods-MAESCrypt_Example-acknowledgements.markdown */,
+				15DEBF3E481675601C46F2A787BA0476 /* Pods-MAESCrypt_Example-acknowledgements.plist */,
+				5362CAA80CB8BF231A0F307A7390EE42 /* Pods-MAESCrypt_Example-dummy.m */,
+				653508D9FC9A415B1B591657B2AC48C6 /* Pods-MAESCrypt_Example-frameworks.sh */,
+				7F829F25CE9D8590D5C0540B8BA4113B /* Pods-MAESCrypt_Example-resources.sh */,
+				F50BAC42691598FF9E464C36FA473D4A /* Pods-MAESCrypt_Example-umbrella.h */,
+				A03F03B844D94DF133E3D8A1D1E0D0AE /* Pods-MAESCrypt_Example.debug.xcconfig */,
+				99515875D588273F6C65B0E348C7C194 /* Pods-MAESCrypt_Example.release.xcconfig */,
+			);
+			name = "Pods-MAESCrypt_Example";
+			path = "Target Support Files/Pods-MAESCrypt_Example";
+			sourceTree = "<group>";
+		};
+		E238D5196F7DA7A4541EE0C1EF8A669A /* Pods-MAESCrypt_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CFAC2D9BCBA70707958C84C899A158A1 /* Info.plist */,
+				29DB088A7282C66D4B3C22CCAD8ECE7F /* Pods-MAESCrypt_Tests.modulemap */,
+				BF86FC33F7C98F89DFF500427D2BA3D5 /* Pods-MAESCrypt_Tests-acknowledgements.markdown */,
+				2F96DA2CCE68104473A2A4F6177C7004 /* Pods-MAESCrypt_Tests-acknowledgements.plist */,
+				74AB38DAF5434264E8E97E4F42865E27 /* Pods-MAESCrypt_Tests-dummy.m */,
+				9DAC0E4AF1BA93DAC57D3D1736F515EF /* Pods-MAESCrypt_Tests-frameworks.sh */,
+				231C256AE5B291E336C561F7CB4DF716 /* Pods-MAESCrypt_Tests-resources.sh */,
+				AF771F280255A968DD4B32D8DAD89BF6 /* Pods-MAESCrypt_Tests-umbrella.h */,
+				6247875E87300411365C5D2980607111 /* Pods-MAESCrypt_Tests.debug.xcconfig */,
+				8F35B72A5782C3153A2AFFA5858D5475 /* Pods-MAESCrypt_Tests.release.xcconfig */,
+			);
+			name = "Pods-MAESCrypt_Tests";
+			path = "Target Support Files/Pods-MAESCrypt_Tests";
+			sourceTree = "<group>";
+		};
+		F1D67CC577047E96AA4E5B5729FB3196 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FAB9948B4A97BB2BB1A08244D5F0537 /* MAESCrypt.framework */,
+				C31FA3CC97AE5C778AE28F2616C05F6A /* Pods_MAESCrypt_Example.framework */,
+				C67F2F147C58A3F2FA6F46C906D217FC /* Pods_MAESCrypt_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D326B9AE7B52DDAB9E3344A95940421 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3243E4C220C2DC290FE0B8F765FD417 /* Pods-MAESCrypt_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E85B777C41C2067E7D82B7C08B7813F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0188696613537B85EAD4BF4FE6FB3A49 /* Pods-MAESCrypt_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D377FF90FD3C1726A0C0DF2F76677210 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1CD0F69D3E26288A45919DC39EE72A3 /* MAESCrypt-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0796C3B8EA7EFDCAD2095BB673742085 /* MAESCrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4794D4DA78D2BDF121CD07DC36037C49 /* Build configuration list for PBXNativeTarget "MAESCrypt" */;
+			buildPhases = (
+				D57DB224110588C8986D031EA177047F /* Sources */,
+				FE0758A72BBAA71012C1D24DFA4474F9 /* Frameworks */,
+				D377FF90FD3C1726A0C0DF2F76677210 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAESCrypt;
+			productName = MAESCrypt;
+			productReference = 0FAB9948B4A97BB2BB1A08244D5F0537 /* MAESCrypt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7608119385B1DBCBA33C98656EE62F4E /* Pods-MAESCrypt_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C3D372319A36FA5F390DFE53276E02D /* Build configuration list for PBXNativeTarget "Pods-MAESCrypt_Example" */;
+			buildPhases = (
+				FA048598E131F17A4D714CC439C6C251 /* Sources */,
+				F252BAD08F4F3B5C285C6254D6695825 /* Frameworks */,
+				5E85B777C41C2067E7D82B7C08B7813F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F968510A69426B6543C64820DFB67AD1 /* PBXTargetDependency */,
+			);
+			name = "Pods-MAESCrypt_Example";
+			productName = "Pods-MAESCrypt_Example";
+			productReference = C31FA3CC97AE5C778AE28F2616C05F6A /* Pods_MAESCrypt_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A924B63F24F8B244F09D5710A1F1D7C4 /* Pods-MAESCrypt_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86F4659D2B49CB5576F356D0F166C377 /* Build configuration list for PBXNativeTarget "Pods-MAESCrypt_Tests" */;
+			buildPhases = (
+				BA9BAAFB653EBD45BABA7ADDA79DC04C /* Sources */,
+				DF56E5E7661F9406F7213121E1417848 /* Frameworks */,
+				0D326B9AE7B52DDAB9E3344A95940421 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				364568E272121E3A05621EE7E6D06716 /* PBXTargetDependency */,
+			);
+			name = "Pods-MAESCrypt_Tests";
+			productName = "Pods-MAESCrypt_Tests";
+			productReference = C67F2F147C58A3F2FA6F46C906D217FC /* Pods_MAESCrypt_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F1D67CC577047E96AA4E5B5729FB3196 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0796C3B8EA7EFDCAD2095BB673742085 /* MAESCrypt */,
+				7608119385B1DBCBA33C98656EE62F4E /* Pods-MAESCrypt_Example */,
+				A924B63F24F8B244F09D5710A1F1D7C4 /* Pods-MAESCrypt_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA9BAAFB653EBD45BABA7ADDA79DC04C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563754096CA7D4DDA0198AA734DCB3F8 /* Pods-MAESCrypt_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57DB224110588C8986D031EA177047F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75030ED6E011C0E5F299BA2BD2485902 /* MAESCrypt-dummy.m in Sources */,
+				945FF0EDE805DEFD57B198B655ED85C4 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA048598E131F17A4D714CC439C6C251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE624508D546BDDB2178843B324A1B37 /* Pods-MAESCrypt_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		364568E272121E3A05621EE7E6D06716 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MAESCrypt_Example";
+			target = 7608119385B1DBCBA33C98656EE62F4E /* Pods-MAESCrypt_Example */;
+			targetProxy = FCE0CE1FD1D3276E154BF6FA2DB0A503 /* PBXContainerItemProxy */;
+		};
+		F968510A69426B6543C64820DFB67AD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MAESCrypt;
+			target = 0796C3B8EA7EFDCAD2095BB673742085 /* MAESCrypt */;
+			targetProxy = 21695F3D627EB85A1B30CA928679BDD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FD5D827051EB4BD52985FC3F2E3FB5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 132FE17109692D3FE0732D5FADF2AD60 /* MAESCrypt.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MAESCrypt/MAESCrypt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MAESCrypt/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MAESCrypt/MAESCrypt.modulemap";
+				PRODUCT_MODULE_NAME = MAESCrypt;
+				PRODUCT_NAME = MAESCrypt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D48ED85121BF32F2767949CB8BB9233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 132FE17109692D3FE0732D5FADF2AD60 /* MAESCrypt.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MAESCrypt/MAESCrypt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MAESCrypt/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MAESCrypt/MAESCrypt.modulemap";
+				PRODUCT_MODULE_NAME = MAESCrypt;
+				PRODUCT_NAME = MAESCrypt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53EE505418B76FAEA93BD8D90F75DD41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99515875D588273F6C65B0E348C7C194 /* Pods-MAESCrypt_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MAESCrypt_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MAESCrypt_Example/Pods-MAESCrypt_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CA8166BC9AA874B3BC9132162F3E481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6247875E87300411365C5D2980607111 /* Pods-MAESCrypt_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MAESCrypt_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MAESCrypt_Tests/Pods-MAESCrypt_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		91522D4E33F659474D39E11DC0C2CBD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A03F03B844D94DF133E3D8A1D1E0D0AE /* Pods-MAESCrypt_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MAESCrypt_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MAESCrypt_Example/Pods-MAESCrypt_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C73955CB5E1180C4D67ECEFA80BE476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F35B72A5782C3153A2AFFA5858D5475 /* Pods-MAESCrypt_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MAESCrypt_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MAESCrypt_Tests/Pods-MAESCrypt_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C3D372319A36FA5F390DFE53276E02D /* Build configuration list for PBXNativeTarget "Pods-MAESCrypt_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91522D4E33F659474D39E11DC0C2CBD0 /* Debug */,
+				53EE505418B76FAEA93BD8D90F75DD41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4794D4DA78D2BDF121CD07DC36037C49 /* Build configuration list for PBXNativeTarget "MAESCrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D48ED85121BF32F2767949CB8BB9233 /* Debug */,
+				0FD5D827051EB4BD52985FC3F2E3FB5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86F4659D2B49CB5576F356D0F166C377 /* Build configuration list for PBXNativeTarget "Pods-MAESCrypt_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA8166BC9AA874B3BC9132162F3E481 /* Debug */,
+				9C73955CB5E1180C4D67ECEFA80BE476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
