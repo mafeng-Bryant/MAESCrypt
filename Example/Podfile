@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MAESCrypt_Example' do
+  pod 'MAESCrypt', :path => '../'
+
+  target 'MAESCrypt_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
